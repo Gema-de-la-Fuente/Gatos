@@ -2,9 +2,9 @@
 var url40imagenes = "https://api.thecatapi.com/v1/images/search?limit=40";
 var urlCats = "https://api.thecatapi.com/v1/images/search?limit=8"; //50
 var limitURL = "https://api.thecatapi.com/v1/images/search?";
-var urlCategorias = "http://localhost:3000/categorias";
+//var urlCategorias = "http://localhost:3000/categorias";
 //url para github
-//var urlCategorias = "https://my-json-server.typicode.com/Gema-de-la-Fuente/Gatos/categorias";
+var urlCategorias = "https://my-json-server.typicode.com/Gema-de-la-Fuente/Gatos/categorias";
 
 var urlCambioCategoria = urlCats;
 var numPagina = 0;
