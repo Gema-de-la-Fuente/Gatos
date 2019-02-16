@@ -224,7 +224,7 @@ function eventoEnlace(nombreBoton, paginador, option){
 
 function crearManejador(nombreBoton,paginador,option) {
     return function(){
-        alert(nombreBoton);
+        //alert(nombreBoton);
         eventoEnlace(nombreBoton,paginador,option);  
     }
 }
